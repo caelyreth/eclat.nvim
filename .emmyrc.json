@@ -1,0 +1,9 @@
+{
+  "runtime": {
+    "version": "LuaJIT"
+  },
+  "workspace": {
+    "library": ["$VIMRUNTIME"],
+    "ignoreGlobs": ["references/**"]
+  }
+}
