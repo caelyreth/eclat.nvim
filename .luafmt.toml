@@ -1,6 +1,6 @@
 [layout]
 max_line_width = 76
-table_expand = "Auto"
+table_expand = "Always"
 call_args_expand = "Auto"
 func_params_expand = "Auto"
 

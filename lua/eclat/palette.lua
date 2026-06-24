@@ -6,7 +6,16 @@
 ---@field dim    Eclat.Color
 ---@field tint   Eclat.Color
 
----@alias Eclat.Palette table<string, Eclat.ColorGroup>
+---@class Eclat.Palette
+---@field balance   Eclat.ColorGroup
+---@field bloom     Eclat.ColorGroup
+---@field growth    Eclat.ColorGroup
+---@field soil      Eclat.ColorGroup
+---@field twilight  Eclat.ColorGroup
+---@field nostalgic Eclat.ColorGroup
+---@field ever      Eclat.ColorGroup
+---@field feather   Eclat.ColorGroup
+---@field field     Eclat.ColorGroup
 
 --- Éclat Color Palette
 ---
@@ -62,6 +71,12 @@ local palette = {
         bright = '#DBDAD1',
         dim = '#8E8D80',
         tint = '#3A3936',
+    },
+    field = {  -- surface complementary
+        normal = '#373737',
+        bright = '#525251',
+        dim = '#191919',
+        tint = '#151515',
     },
 }
 
