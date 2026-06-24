@@ -15,12 +15,6 @@ function M.setup(p, cfg)
             bg = not cfg.transparent and p.field.dim or 'NONE',
         },
 
-        -- Default fg and bg for non-current editor window
-        NormalNC = {
-            fg = p.feather.dim,
-            bg = not cfg.transparent and p.field.tint or 'NONE',
-        },
-
         -- Default fg and bg for floating window
         NormalFloat = {
             fg = p.feather.normal,
