@@ -1,1 +1,2 @@
-
+-- delegate
+require('eclat').load()
