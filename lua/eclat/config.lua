@@ -10,9 +10,9 @@ local M = {}
 ---@type Eclat.Config
 M.defaults = {
     transparent = false,
-    italic      = true,
-    underline   = false,
-    dev         = true,
+    italic = true,
+    underline = false,
+    dev = true,
 }
 
 ---@type Eclat.Config

@@ -1,7 +1,7 @@
 ---@param p   Eclat.Palette
 ---@param cfg Eclat.Config
 ---@return table<string, vim.api.keyset.highlight>
-return function(p, cfg)
+return function (p, cfg)
     return {
 
         -- MARK: - Tree-sitter

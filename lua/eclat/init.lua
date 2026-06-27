@@ -16,14 +16,17 @@ function M.load()
     hl.setup(p, config.cfg)
 
     if config.cfg.dev ~= false then
-        vim.api.nvim_create_user_command('EclatReload', function()
+        vim.api.nvim_create_user_command('EclatReload', function ()
             for k in pairs(package.loaded) do
                 if k:match '^eclat' and k ~= 'eclat.config' then
                     package.loaded[k] = nil
                 end
             end
             require('eclat').load()
-        end, { desc = 'Reload Éclat colorscheme' })
+        end, {
+                desc = 'Reload Éclat colorscheme',
+            }
+        )
     end
 end
 

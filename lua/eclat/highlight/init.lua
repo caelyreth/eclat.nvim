@@ -9,10 +9,10 @@ function M.setup(p, cfg)
         end
     end
 
-    apply(require 'eclat.highlight.editor'     (p, cfg))
-    apply(require 'eclat.highlight.syntax'     (p, cfg))
-    apply(require 'eclat.highlight.treesitter' (p, cfg))
-    apply(require 'eclat.highlight.lsp'        (p, cfg))
+    apply(require 'eclat.highlight.editor'(p, cfg))
+    apply(require 'eclat.highlight.syntax'(p, cfg))
+    apply(require 'eclat.highlight.treesitter'(p, cfg))
+    apply(require 'eclat.highlight.lsp'(p, cfg))
 end
 
 return M
