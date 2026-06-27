@@ -279,7 +279,7 @@ return function (p, cfg)
 
         -- Visual selection and non-owning selection
         Visual = {
-            bg = p.field.bright,
+            bg = p.twilight.tint,
         },
         VisualNOS = {
             link = 'Visual',
