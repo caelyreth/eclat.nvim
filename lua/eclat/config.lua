@@ -5,12 +5,14 @@ local M = {}
 ---@field transparent? boolean Enable transparent background
 ---@field italic?      boolean Enable italic text in highlighting
 ---@field underline?   boolean Enable underline decorations
+---@field dev?         boolean Register EclatReload command for live iteration
 
 ---@type Eclat.Config
 M.defaults = {
     transparent = false,
     italic      = true,
     underline   = false,
+    dev         = true,
 }
 
 ---@type Eclat.Config
