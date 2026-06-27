@@ -73,8 +73,8 @@ local palette = {
         tint = '#3A3936',
     },
     field = {  -- surface complementary
-        normal = '#272727',
-        bright = '#525251',
+        normal = '#1E1E1E',
+        bright = '#272727',
         dim = '#191919',
         tint = '#151515',
     },

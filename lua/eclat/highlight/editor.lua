@@ -47,7 +47,7 @@ return function (p, cfg)
 
         -- Entire line and column where the cursor is positioned
         CursorLine = {
-            bg = p.field.normal,
+            bg = p.field.bright,
         },
         CursorColumn = {
             link = 'CursorLine',
